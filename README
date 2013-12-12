@@ -1,0 +1,21 @@
+Small test programs for the graph theory lecture by Maria Axenovich at KIT.
+
+Prerequisites:
+  - C++ compiler with C++11 support (g++ used in Makefile, modify the compiler
+    if necessary.)
+  - make
+
+Build:
+  make
+
+Programs:
+  - ./word_graph creates the word graph for a dictionary file and analyses
+    its connected components
+  - ./gen generates special graphs in TGF format
+  - ./check reads a graph in TGF format and determines its properties
+
+Examples:
+  - './gen KG5,2 | ./check' determines the diameter, girth, ... of the Petersen
+    graph
+  - './word_graph 5 < dict/2of12.txt' determines the connected components of the
+    word graph with words of length 5 given by the dictionary 2of12.txt.

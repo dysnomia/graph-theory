@@ -1,0 +1,7 @@
+*.exe
+*.stackdump
+*.sublime-workspace
+*.o
+word_graph
+gen
+check
